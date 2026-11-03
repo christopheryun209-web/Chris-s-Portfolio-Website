@@ -11,3 +11,6 @@
 .button{background:#c50932}.wordmark,.project-number,h1 em{color:#c50932}.contact-section{background:linear-gradient(115deg,#e8edf2,#b5dcf3)}
 
 .career-note{max-width:490px;padding:14px 16px;border-left:3px solid #c50932;background:#e0edf6;font-size:14px;line-height:1.7}.career-note strong{display:block;color:#a9082a;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:3px}
+
+/* Project photographs: click an image to see the original. */
+.project-gallery{margin:0 0 26px;display:grid;gap:12px}.project-gallery figure{margin:0;min-width:0}.project-gallery a{display:block;border-radius:4px;overflow:hidden;background:#e0edf6}.project-gallery img{display:block;width:100%;height:280px;object-fit:cover;object-position:center 65%}.project-gallery figcaption{font-size:11px;line-height:1.6;color:var(--muted);margin-top:8px}.knife-gallery{grid-template-columns:1fr 1fr}.knife-gallery img{height:250px;object-fit:contain;background:#e0edf6}@media(max-width:560px){.knife-gallery img{height:210px}.project-gallery img{max-width:100%}}
