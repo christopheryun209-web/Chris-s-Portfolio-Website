@@ -9,3 +9,5 @@
 /* Icy blue, brushed silver, and red accents inspired by the reference. */
 .hero-drawing{background:linear-gradient(110deg,#c7d0d8 0%,#f7fafc 18%,#8fc5e8 19%,#b8def4 62%,#eef3f7 63%,#b5c1cd 100%)}
 .button{background:#c50932}.wordmark,.project-number,h1 em{color:#c50932}.contact-section{background:linear-gradient(115deg,#e8edf2,#b5dcf3)}
+
+.career-note{max-width:490px;padding:14px 16px;border-left:3px solid #c50932;background:#e0edf6;font-size:14px;line-height:1.7}.career-note strong{display:block;color:#a9082a;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:3px}
