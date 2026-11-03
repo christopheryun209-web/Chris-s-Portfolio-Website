@@ -14,3 +14,14 @@
 
 /* Project photographs: click an image to see the original. */
 .project-gallery{margin:0 0 26px;display:grid;gap:12px}.project-gallery figure{margin:0;min-width:0}.project-gallery a{display:block;border-radius:4px;overflow:hidden;background:#e0edf6}.project-gallery img{display:block;width:100%;height:280px;object-fit:cover;object-position:center 65%}.project-gallery figcaption{font-size:11px;line-height:1.6;color:var(--muted);margin-top:8px}.knife-gallery{grid-template-columns:1fr 1fr}.knife-gallery img{height:250px;object-fit:contain;background:#e0edf6}@media(max-width:560px){.knife-gallery img{height:210px}.project-gallery img{max-width:100%}}
+
+/* Enhanced galleries show one cover at a time; all photos remain available without JavaScript. */
+.project-gallery.is-carousel{display:block;min-width:0}
+.project-gallery.is-carousel figure[hidden]{display:none}
+.project-gallery.is-carousel img{height:330px;object-fit:contain;background:#e0edf6}
+.gallery-controls{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px}
+.gallery-controls button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink);cursor:pointer;font-size:24px;line-height:1}
+.gallery-controls button:hover{background:var(--accent)}
+.gallery-controls button:focus-visible{outline:3px solid #c50932;outline-offset:3px}
+.gallery-count{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+@media(max-width:560px){.project-gallery.is-carousel img{height:280px}}
