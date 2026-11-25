@@ -15,6 +15,10 @@
     .personal-story h2 { margin: 0 0 10px; font-size: 24px; }
     .personal-story p { margin: 0; color: var(--muted); line-height: 1.75; }
     .personal-footer { border-top: 1px solid var(--line); }
+    .personal-photos { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); margin-top: 16px; }
+    .personal-photos figure { margin: 0; }
+    .personal-photos img { display: block; width: 100%; height: auto; border-radius: 4px; }
+    .personal-photos figcaption { margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -40,6 +44,17 @@
     <section class="personal-story">
       <h2>Life outside engineering</h2>
       <p>At Berkeley, I’ve been getting more comfortable speaking Korean in everyday conversations.</p>
+      <div class="personal-photos">
+        <figure><img src="assets/images/san-francisco-lathe.webp" width="1050" height="788" loading="lazy" alt="Christopher Yun standing on an industrial lathe displayed outdoors"><figcaption>Standing on an industrial lathe in San Francisco.</figcaption></figure>
+      </div>
+    </section>
+    <section class="personal-story">
+      <h2>Mt. SAC Engineering Club</h2>
+      <p>I served as Vice President of the Engineering Club at Mt. San Antonio College.</p>
+      <div class="personal-photos">
+        <figure><img src="assets/images/mt-sac-engineering-club.webp" width="1050" height="788" loading="lazy" alt="Engineering Club members behind a display table with a robot and 3D printer"><figcaption>With members of the Mt. SAC Engineering Club.</figcaption></figure>
+        <figure><img src="assets/images/mt-sac-cardboard-boat-race.webp" width="1050" height="788" loading="lazy" alt="Engineering Club members posing with a cardboard boat"><figcaption>Mt. SAC Engineering Club cardboard boat race.</figcaption></figure>
+      </div>
     </section>
   </main>
   <footer class="personal-footer wrap">
